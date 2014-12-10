@@ -1,0 +1,690 @@
+/* CSS Document */
+
+/*
+
+font-family:'Neuzeit S LT W01 Book';
+font-family:'NeuzeitSLTW01-BookHeavy';
+
+*/
+
+body { background:url(../_images/bgtile.gif) repeat; margin:0px; padding:0px; padding-top:5px; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+p { font-size:12px; }
+img { border:0px; }
+div { position:relative; top:0px; left:0px; }
+
+.clear { clear:both; height:0px; }
+
+a { color:#B8A274; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* splash specific styles */
+#homepage #splashRow2 { background-color:#2d2417; width:425px; height:331px; float:left; border-bottom:5px solid #fff; padding:30px; color:#fff; }
+#homepage #splashRow2b { width:475px; height:391px; float:left; border-bottom:5px solid #fff; }
+
+#homepage #splashRow2 h1 { font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:27px; margin:0px; padding:0px; }
+#homepage #splashRow2 h2 { font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-style:italic; font-size:22px; margin:0px; padding:0px; }
+#homepage #splashRow2 h3 { font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:14px; margin:0px; padding:0px; padding-top:10px; }
+#homepage #splashRow2 p { font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#ffedd2; margin:0px; padding:0px; padding-top:10px; line-height:18px; }
+
+#homepage #splashRow2 .footerLinks { height:110px; background-color:#3e3425; position:absolute; top:280px; width:485px; }
+#homepage #splashRow2 .footerLinks h1 { font-family:'NeuzeitSLTW01-BookHeavy'; font-size:14px; font-weight:normal; padding-left:30px; padding-top:20px; }
+#homepage #splashRow2 .footerLinks h5 { padding:0px; margin:0px; padding-left:30px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#ffedd2; padding-top:5px; }
+
+.splashtout h1 { font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:14px; color:#fff; margin:0px; padding:20px; padding-bottom:0px; }
+.splashtout h2 { font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-style:italic; font-size:16px; color:#fff; margin:0px; padding:0px; padding-left:20px; padding-right:30px; }
+.splashtout p  { font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#ffedd2; padding-left:20px; padding-right:20px; padding-top:0px; line-height:16px; }
+.splashtout p a { color:#fff; }
+
+/* homepage specific styles */
+#homepage { width:965px; margin:0 auto; }
+#homepage #row1 { height:193px; }
+#homepage #row2 { height:391px; }
+#homepage #row3 { height:193px; }
+#homepage #row4 {  }
+
+#homepage #row2 #tout1wide { background-color:#5B544A; height:193px; width:725px; float:left; }
+#homepage #row2 #tout1wide h2 { margin:0px; padding:0px; }
+#homepage #row2 #tout1wide p { margin:0px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; color:#fff; padding:50px; padding-left:30px; padding-right:50px; padding-bottom:10px; font-size:18px; line-height:27px; }
+#homepage #row2 #tout1wide a { text-transform:uppercase; color:#ffbf56; font-size:16px; padding-left:450px; padding-top:15px; }
+#homepage #row2 #tout2small {  }
+
+#homepage #row4alt #toutwidebottom { width:725px; float:left; }
+#homepage #row4alt #toutwidebottom .tout { float:left; width:210px; padding-left:30px; padding-top:10px; }
+#homepage #row4alt #toutwidebottom .tout h2 { border:0px; margin:0px; padding:0px; padding-bottom:10px; font-size:10px; color:#5b544a; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; }
+#homepage #row4alt #toutwidebottom .tout .left { float:left; width:65px; }
+#homepage #row4alt #toutwidebottom .tout .right { float:right; width:145px; }
+#homepage #row4alt #toutwidebottom .tout .right p { margin:0px; padding:0px; font-family:Arial; font-size:11px; color:#5b544a; }
+#homepage #row4alt #toutwidebottom .tout .right p a { color:#dfa642; text-decoration:underline; }
+#homepage #row4alt #toutwidebottom h2 { color:#5b544a; font-size:11px; text-transform:uppercase; font-weight:normal; margin:0px; border-bottom:1px solid #f4f4f4; padding-top:10px; padding-bottom:10px; margin-left:30px; margin-right:30px; }
+
+#homepage #row5.ddfiafoot { padding-top:10px; }
+#homepage #row5.ddfiafoot div p { font-size:11px; color:#575757; padding:0px; margin:0px; }
+#homepage #row5.ddfiafoot div p a { text-decoration:underline; color:#e3a945; padding:0px; }
+
+#homepage #row3 .touthalf { background-color:#5B544A; height:173px; width:290px; float:left; padding-left:30px; padding-right:40px; padding-top:20px; }
+#homepage #row3 .touthalf h2 { margin:0px; padding:0px; padding-top:5px; padding-bottom:10px; font-size:8px; color:#ffbf56; text-transform:uppercase; font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; }
+#homepage #row3 .touthalf p { margin:0px; font-size:11px; color:#fff; line-height:16px; }
+#homepage #row3 .touthalf a { font-size:10px; color:#ffbf56; text-transform:uppercase; padding-top:10px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; display:block; }
+
+
+#homepage .square { border:5px solid #fff; border-right:0px; border-top:0px; width:235px; height:193px; float:left; }
+#homepage .row2square { border:5px solid #fff; border-right:0px; border-top:0px; width:485px; height:391px; float:left; }
+
+
+#homepage #row1 #logo { background-color:#5b544a; width:245px; height:100%; float:left; border-bottom:5px solid #fff; }
+#homepage #row1 #logo a { display:block; position:relative; top:77px; width:189px; margin:0 auto; }
+#homepage #row1 #sq13 #search { position:absolute; top:20px; left:20px; width:197px; height:35px; background:url(../_images/bgsearch.png) no-repeat; }
+#homepage #row1 #sq13 #search #txtSearch { background-color:transparent; border:0px; padding-left:5px; height:15px; position:relative; top:6px; left:5px; font-size:11px; color:#c3c3c3; width:160px; }
+#homepage #row1 #sq13 #search #icon { position:absolute; left:173px; top:8px; height:15px; width:15px; }
+
+#homepage #row2 #navigation { width:245px; min-height:371px; background-color:#5b544a; float:left; font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:11px;border-bottom:5px solid #fff; padding-bottom:20px; }
+#homepage #row2 #navigation ul { margin:0px; padding:0px; list-style-type:none; padding-left:30px; padding-top:10px; }
+#homepage #row2 #navigation ul li { padding-top:15px; padding-bottom:0px; }
+#homepage #row2 #navigation ul li a { color:#fff; text-decoration:none; text-transform:uppercase; }
+/* subnav */
+#homepage #row2 #navigation ul ul { margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff; padding-left:10px; padding-top:10px; text-transform:none; }
+#homepage #row2 #navigation ul ul ul { padding-top:0px; }
+#homepage #row2 #navigation ul ul li { padding:0px; line-height:24px; }
+#homepage #row2 #navigation ul ul li a { text-transform:none; }
+#homepage #row2 #navigation ul ul li a.active, #homepage #row2 #navigation ul li a.active { color:#faaa2b; }
+/* 3rd nav */
+#homepage #row2 #navigation ul ul li ul { padding:0px; padding-left:10px; padding-bottom:5px; }
+
+
+#homepage #row2 #boxHolders { width:720px; float:left; background-color:#fff; }
+#homepage #row2 #boxHolders #sq_slider { background-color:#ae9f88; width:475px; height:173px; padding-top:20px; float:left; border-left:5px solid #fff; font-family:'Neuzeit S LT W01 Book'; border-bottom:5px solid #fff; }
+#homepage #row2 #boxHolders #sq_slider #controls { padding-left:25px; padding-right:25px; }
+#homepage #row2 #boxHolders #sq_slider #controls ul { margin:0px; padding:0px; list-style-type:none; }
+#homepage #row2 #boxHolders #sq_slider #controls ul li { float:left; width:25px; font-size:16px; }
+#homepage #row2 #boxHolders #sq_slider #controls ul li a { text-decoration:none; color:#927a68; }
+#homepage #row2 #boxHolders #sq_slider #controls ul li a:hover  { color:#fff; }
+#homepage #row2 #boxHolders #sq_slider #controls ul li a.active { color:#fff; }
+
+#homepage #row2 #boxHolders #sq_slider #content { padding-left:25px; padding-right:25px; }
+#homepage #row2 #boxHolders #sq_slider #content h1 { font-size:14px; font-weight:normal; color:#fff; font-family:'NeuzeitSLTW01-BookHeavy'; text-transform:uppercase; margin-bottom:0px; }
+#homepage #row2 #boxHolders #sq_slider #content p { font-size:11px; color:#323232; padding:0px; margin:0px; line-height:17px; padding-top:3px; }
+
+#homepage #row2 #boxHolders #sq_slider #footer { background-color:#a6967e; height:36px; width:100%; position:absolute; top:155px; line-height:36px; font-family:'NeuzeitSLTW01-BookHeavy'; font-size:13px; }
+#homepage #row2 #boxHolders #sq_slider #footer ul { margin:0px; padding:0px; list-style-type:none; }
+#homepage #row2 #boxHolders #sq_slider #footer ul li { float:left; padding-left:25px; }
+#homepage #row2 #boxHolders #sq_slider #footer ul li a { color:#fff; text-decoration:none; text-transform:uppercase; }
+
+#homepage #row2 #boxHolders .tourheader { height:169px; border-left:5px solid #fff; background-color:#b8a274; }
+#homepage #row2 #boxHolders .tourheader .left { padding-left:30px; padding-right:30px; padding-top:20px; width:255px; height:97px; background-color:#b8a274; font-size:12px; color:#fff; float:left; }
+#homepage #row2 #boxHolders .tourheader .left h1 { margin:0px; padding:0px; padding-top:15px; color:#fff; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:24px; float:left; width:280px; }
+#homepage #row2 #boxHolders .tourheader .left p { float:left; color:#fff; font-size:12px; font-family:Arial, Helvetica, sans-serif; padding-left:0px; padding-right:20px; padding-top:10px; margin:0px; width:300px; }
+#homepage #row2 #boxHolders .tourheader .right { background:url(../_images/map.png) #b8a274 top right no-repeat; width:374px; height:169px; float:right; }
+#homepage #row2 #boxHolders .tourcontent { border-left:5px solid #fff; border-top:5px solid #fff; background-color:#fff; }
+#homepage #row2 #boxHolders .tourcontent .left { width:355px; float:left; max-height:250px; height:250px; }
+#homepage #row2 #boxHolders .tourcontent .left p { color:#4f4940; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-style:italic; padding-left:20px; padding-right:20px; padding-top:10px; padding-bottom:10px; }
+#homepage #row2 #boxHolders .tourcontent .right .thumbnails { padding-left:20px; padding-bottom:0px; }
+#homepage #row2 #boxHolders .tourcontent .right .thumbnails .thumb { float:left; height:49px; width:49px; background-color:#c8b690; border-right:5px solid #fff; border-bottom:5px solid #fff; }
+
+#homepage #row2 #boxHolders .tourcontent .content { color:#4f4940; font-family:Arial; padding:20px; }
+#homepage #row2 #boxHolders .tourcontent .content h1 { font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:22px; margin:0px; padding:0px; }
+#homepage #row2 #boxHolders .tourcontent .content p { font-size:13px; }
+#homepage #row2 #boxHolders .tourcontent .content p a { color:#B8A274; }
+#homepage #row2 #boxHolders .tourcontent .content p a:hover { text-decoration:none; }
+
+.hiddenplaceholder { display:none; height:0px; width:0px; }
+
+
+#homepage #row2 #boxHolders .tourheader .right { float:right; }
+#homepage #row2 #boxHolders .tourheader .place { height:16px; width:18px; position:absolute; }
+#homepage #row2 #boxHolders .tourheader .place a { display:block; text-decoration:none; position:absolute; width:19px; height:19px; overflow:hidden; background:url(../_images/mapdot.png) bottom center; }
+#homepage #row2 #boxHolders .tourheader .place a img { }
+#homepage #row2 #boxHolders .tourheader #p1 { top:32px; left:263px; width:11px; height:11px; display:block; }
+#homepage #row2 #boxHolders .tourheader #p2 { top:63px; left:263px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p3 { top:79px; left:263px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p4 { top:97px; left:263px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p5 { top:95px; left:286px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p6 { top:124px; left:287px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p7 { top:100px; left:45px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p8 { top:68px; left:282px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p9 { top:77px; left:242px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p10 { top:31px; left:150px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p11 { top:73px; left:223px; width:11px; height:11px; }
+#homepage #row2 #boxHolders .tourheader #p12 { top:65px; left:207px; width:11px; height:11px; }
+
+#homepage #row2 #boxHolders .tourcontent .right .thumbnails h1 { font-size:14px; color:#4f4940; font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; }
+#homepage #row2 #boxHolders .tourcontent .right { float:left; width:345px; }
+#homepage #row2 #boxHolders .tourcontent .right h1 { font-size:22px; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; }
+#homepage #row2 #boxHolders .tourcontent .right h3 { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#cc8100; margin:0px; padding:0px; line-height:17px; }
+#homepage #row2 #boxHolders .tourcontent .right p { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#4f4940; line-height:17px; }
+#homepage #row2 #boxHolders .tourcontent .right .left .thumbnail { width:153px; height:154px; background-color:#c8b690; }
+#homepage #row2 #boxHolders .tourcontent .right .left { float:left; width:153px; border-right:5px solid #fff; color:#4f4940; }
+#homepage #row2 #boxHolders .tourcontent .right .left strong { display:block; font-size:12px; font-weight:normal; font-family:'NeuzeitSLTW01-BookHeavy'; }
+#homepage #row2 #boxHolders .tourcontent .right .left small { display:block; font-size:14px; font-family:'Neuzeit S LT W01 Book'; padding-bottom:5px; }
+#homepage #row2 #boxHolders .tourcontent .right .left small p { margin:0px; padding:0px; font-size:inherit; font-style:inherit; font-family:inherit; }
+
+#homepage #row2 #boxHolders .collectionheader { background-color:#c8b690; height:189px; border-left:5px solid #fff; z-index:20; }
+#homepage #row2 #boxHolders .collectionheader .left { padding-left:30px; padding-top:20px; }
+#homepage #row2 #boxHolders .collectionheader .left h1 { margin:0px; padding:0px; color:#fff; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:24px; }
+#homepage #row2 #boxHolders .collectionheader p, #homepage #row2 #boxHolders .collectionheader .searchHolder { color:#fff; padding:30px; padding-bottom:10px; margin:0px; display:block; padding-top:10px; font-family:Arial, Helvetica, sans-serif; font-size:13px; }
+#homepage #row2 #boxHolders .collectionheader .searchHolder .txtbox { display:inline-block; border:1px solid #969696; height:23px; margin:0px; padding-left:5px; }
+.filterHolder { color:#fff; padding-left:30px; padding-right:30px; }
+.filterHolder strong { font-size:13px; display:block; float:left; margin-top:2px; }
+.filterHolder .dropdown { float:left; margin-left:5px; width:149px; cursor:pointer; height:auto; }
+.filterHolder .dropdown .selecteditem { border:1px solid #969696; height:23px; background-color:#e5d7bb; color:#685f4d; font-size:11px; line-height:23px; padding-left:5px; z-index:2; }
+.filterHolder .dropdown .selecteditem .text {  }
+.filterHolder .dropdown .selecteditem .arrow { background:url(../_images/arrow_down.png) no-repeat; width:10px; height:6px; position:absolute; left:130px; top:8px; }
+.filterHolder .dropdown .options { background-color:#e5d7bb; border:1px solid #969696; aborder-top:1px #e5d7bb; width:390px; position:relative; top:24px; cursor:default; padding:10px; display:none; position:absolute; z-index:1; }
+.filterHolder .dropdown .options .threecols { width:100%; }
+
+.filterHolder .dropdown .options .threecols .col { width:130px; float:left; color:#685f4d; font-size:12px; }
+.filterHolder .dropdown .options .threecols .col small { display:block; padding-bottom:5px; height:12px; }
+
+.pagingContainer { width:400px; top:-15px; margin-bottom:-20px; color:#4F4940; font-size:11px; min-height:20px; }
+#sizeHolder .left .image img { max-height:300px; }
+
+#homepage #row2 #boxHolders .collectioncontent { border-left:5px solid #fff; z-index:5; padding-left:30px; padding-right:30px; }
+#homepage #row2 #boxHolders .collectioncontent h1 { margin:0px; padding-top:30px; padding-bottom:20px; color:#000; font-size:16px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; }
+#homepage #row2 #boxHolders .collectioncontent .singleOptions h1 { margin:0px; padding:0px; font-size:24px; font-family:'Neuzeit S LT W01 Book'; }
+#homepage #row2 #boxHolders .collectioncontent .singleOptions img { border:1px solid #C8B690; margin-top:10px; }
+#homepage #row2 #boxHolders .collectioncontent .singleOptions .image { width:55%; float:left; padding-right:20px; z-index:10; }
+#homepage #row2 #boxHolders .collectioncontent .singleOptions p { line-height:18px; }
+
+#homepage #row2 #boxHolders .collectioncontent .views { position:relative; left:570px; width:100px; line-height:19px; }
+#homepage #row2 #boxHolders .collectioncontent .views .small { height:19px; width:25px; float:left; padding-right:5px; }
+#homepage #row2 #boxHolders .collectioncontent .views .small a { display:block; background:url(../_images/icnDetailSmall.png) no-repeat bottom left; text-decoration:none; }
+#homepage #row2 #boxHolders .collectioncontent .views .small a:hover, #homepage #row2 #boxHolders .collectioncontent .views .small a.active { background:url(../_images/icnDetailSmall.png) no-repeat top left; }
+#homepage #row2 #boxHolders .collectioncontent .views .medium { height:19px; width:25px; float:left; padding-right:5px; }
+#homepage #row2 #boxHolders .collectioncontent .views .medium a { display:block; background:url(../_images/icnDetailMedium.png) no-repeat bottom left; text-decoration:none; }
+#homepage #row2 #boxHolders .collectioncontent .views .medium a:hover, #homepage #row2 #boxHolders .collectioncontent .views .medium a.active { background:url(../_images/icnDetailMedium.png) no-repeat top left; }
+#homepage #row2 #boxHolders .collectioncontent .views .large { height:19px; width:25px; float:left; padding-right:5px; }
+#homepage #row2 #boxHolders .collectioncontent .views .large a { display:block; background:url(../_images/icnDetailLarge.png) no-repeat bottom left; text-decoration:none; }
+#homepage #row2 #boxHolders .collectioncontent .views .large a:hover, #homepage #row2 #boxHolders .collectioncontent .views .large a.active { background:url(../_images/icnDetailLarge.png) no-repeat top left; }
+
+#thumbnailHolder .thumb { float:left; padding:10px; }
+
+#homepage #row2 #boxHolders .collectioncontent .smallOptions { display:none; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions { width:100%; background-color:#f3f3f3; border-top:1px solid #bcbab7; border-bottom:1px solid #bcbab7; height:29px; margin-top:20px; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions div { float:left; line-height:29px; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions div a { font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#4f4940; font-weight:bold; text-decoration:none; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions div a:hover { text-decoration:underline; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions .title { width:135px; padding-left:85px; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions .country { width:200px; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions .date { width:110px; }
+#homepage #row2 #boxHolders .collectioncontent .smallOptions .sortOptions .object { width:120px; }
+
+#homepage #row2 #boxHolders .collectioncontent .mediumOptions { display:none; }
+#homepage #row2 #boxHolders .collectioncontent .largeOptions { display:none; }
+
+#homepage #row2 #boxHolders .calendarListContent { padding:30px; background-color:#fff; border-left:5px solid #fff; font-size:12px; }
+#homepage #row2 #boxHolders .calendarListContent .left { float:left; width:65%; }
+#homepage #row2 #boxHolders .calendarListContent .left .image { float:left; padding-top:10px; }
+#homepage #row2 #boxHolders .calendarListContent .left .content { float:left; width:280px; padding-left:10px; }
+#homepage #row2 #boxHolders .calendarListContent .left p { margin:0px; padding:0px; }
+#homepage #row2 #boxHolders .calendarListContent .right { float:right; width:30%; }
+#homepage #row2 #boxHolders .calendarListContent h1 { font-size:18px; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; margin:0px; padding:0px; padding-top:10px; padding-bottom:5px; border-bottom:1px solid #bdbbb7; }
+#homepage #row2 #boxHolders .calendarListContent h2 { font-size:14px; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; margin:0px; padding:0px; padding-top:10px; padding-bottom:5px; }
+#homepage #row2 #boxHolders .calendarListContent p { font-size:12px; color:#4f4940; }
+#homepage #row2 #boxHolders .calendarListContent .right a {  }
+#homepage #row2 #boxHolders .calendarListContent .right a:hover {  }
+
+#homepage #row2 #boxHolders .calendarDetailContent { padding:30px; background-color:#fff; border-left:5px solid #fff; font-size:12px; color:#4f4940;  }
+#homepage #row2 #boxHolders .calendarDetailContent .top { color:#B8A274; padding-bottom:20px; }
+#homepage #row2 #boxHolders .calendarDetailContent .top a { color:#B8A274; text-decoration:none; }
+#homepage #row2 #boxHolders .calendarDetailContent .left { float:left; width:235px; }
+#homepage #row2 #boxHolders .calendarDetailContent .left .caption { color:#cc8100; font-style:italic; }
+
+#homepage #row2 #boxHolders .calendarDetailContent .right { float:left; width:400px; padding-left:20px; }
+#homepage #row2 #boxHolders .calendarDetailContent .right h1 { font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:24px; margin:0px; padding:0px; }
+#homepage #row2 #boxHolders .calendarDetailContent .right h2 { font-family:'Neuzeit S LT W01 Book'; font-size:14px; margin:0px; padding:0px; }
+#homepage #row2 #boxHolders .calendarDetailContent .right p {  }
+#homepage #row2 #boxHolders .calendarDetailContent .right .shortCaption { font-size:15px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; }
+#homepage #row2 #boxHolders .calendarDetailContent .right .longCaption { font-size:13px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; }
+
+#homepage #row2 #boxHolders .calendarListContent .calendarControl { font-family:'Neuzeit S LT W01 Book'; }
+#homepage #row2 #boxHolders .calendarListContent .calendarControl a { text-decoration:none; }
+#homepage #row2 #boxHolders .calendarListContent .calendarControl td { width:30px; height:30px; }
+
+.CalendarHeader { text-align:left; font-size:16px; font-family:'Neuzeit S LT W01 Book'; color:#4F4940; border-bottom:1px solid #bdbbb7; }
+
+
+.smallCaption { display:none; }
+img#placeholder { width:345px; position:relative; }
+
+
+#homepage #row2 #boxHolders .collectioncontent .dsmall { padding-top:10px; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left { border-bottom:1px solid #f1f1f1; width:100%; margin-bottom:20px; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left h1 { display:none; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .image { width:63px; height:63px; /*background-color:#4f4940;*/ float:left; margin-right:20px; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .caption { display:none; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .smallCaption {  }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .smallCaption div { float:left; font-family:'Neuzeit S LT W01 Book'; font-size:12px; color:#4f4940; /*line-height:63px;*/ }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .smallCaption .title { width:137px; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .smallCaption .country { width:200px; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .smallCaption .date { width:110px; }
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .smallCaption .object { width:120px; }
+
+#homepage #row2 #boxHolders .collectioncontent .dsmall .left .clear { height:10px; }
+
+#homepage #row2 #boxHolders .collectioncontent .dmedium { padding-top:10px; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left { border-top:1px solid #bdbbb7; width:305px; min-height:300px; float:left; margin-right:22px; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left h1 { font-size:14px; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; margin:0px; padding:0px; padding-top:10px; padding-bottom:5px; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left .image { width:153px; height:154px; /*background-color:#4f4940;*/ float:left; margin-right:10px; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left .caption { width:140px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4f4940; padding:0px; margin:0px; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left .caption p { margin:0px; padding:0px; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left .caption p a { display:block; font-weight:bold; color:#B8A274; text-decoration:none; } 
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left .caption p a:hover { text-decoration:underline; }
+#homepage #row2 #boxHolders .collectioncontent .dmedium .left .clear { height:28px; }
+
+#homepage #row2 #boxHolders .collectioncontent .dlarge { padding-top:10px; }
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left { border-top:1px solid #bdbbb7; width:305px; min-height:300px; float:left; margin-right:22px; }
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left h1 { font-size:14px; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; margin:0px; padding:0px; padding-top:10px; padding-bottom:5px; }
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left .image { width:305px; height:306px; /*background-color:#4f4940;*/ }
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left .caption { display:none; }
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left .caption a {  } 
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left .caption a:hover {  }
+#homepage #row2 #boxHolders .collectioncontent .dlarge .left .clear { height:28px; }
+
+#sizeHolder { position:relative; top:0px !important; height:auto; }
+#sizeHolderHidden { aheight:0px; position:absolute; top:0px; }
+
+#filters { min-height:30px; }
+
+.button { background-color:#000; height:23px; display:inline-block; font-family:'NeuzeitSLTW01-BookHeavy'; color:#fff; text-transform:uppercase;font-size:11px; line-height:23px; padding-left:10px; padding-right:10px; cursor:pointer; border:1px solid #000; }
+.button a { text-decoration:none; text-transform:uppercase; color:#fff; }
+.button:hover { border:1px solid #fff; }
+
+.filter, #homepage #row2 #boxHolders .collectioncontent .filter { margin-top:2px; margin-bottom:2px; border:1px solid #c8b690; background-color:#e5d7bb; height:22px; float:left; margin-right:10px; padding-left:10px; padding-right:30px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#776f5e; line-height:22px; background:url(../_images/x22.png) #e5d7bb no-repeat top right; cursor:pointer; }
+.filter:hover, #homepage #row2 #boxHolders .collectioncontent .filter:hover { border:1px solid #4f4940; background-color:#c8b690; }
+.rollover { cursor:pointer; }
+
+#homepage #row2 #boxHolders #mainContent { padding:30px; color:#4f4940; font-family:Arial, Helvetica, sans-serif; font-size:13px; background-color:#fff; }
+#homepage #row2 #boxHolders #mainContent a { color:#B8A274; text-decoration:none; }
+#homepage #row2 #boxHolders #mainContent a:hover { text-decoration:underline; }
+
+#homepage #row2 #boxHolders #mainContent h1 { margin:0px; padding:0px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:24px; color:#4f4940; }
+
+#homepage #row3 .eventTout { float:left; width:205px; height:153px; background-color:#5b544a; color:#fff; padding:20px; }
+#homepage #row3 .eventTout h5 { font-family:'NeuzeitSLTW01-BookHeavy'; font-size:11px; text-transform:uppercase; margin-top:0px; padding-top:0px; font-weight:normal; }
+#homepage #row3 .eventTout p  { font-size:11px; }
+#homepage #row3 .eventTout p a { color:#fff; text-decoration:underline; }
+
+#homepage #row4 { width:100%; height:65px; background-color:#ae9f88; border-top:5px solid #fff; }
+#homepage #row4 .left  { padding:25px; width:256px; text-transform:uppercase; color:#fff; font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:11px; float:left; padding-top:15px; }
+#homepage #row4 .left a { color:#fff; }
+#homepage #row4 .right { font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#323232; width:630px; float:left; }
+#homepage #row4 .right p { padding-top:7px; margin-top:0px; }
+#homepage #row4 .right a { color:#323232; }
+#homepage #row4 .right a:hover { text-decoration:none; }
+
+#homepage #row5 { text-align:right; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000; padding-top:20px; padding-bottom:50px; }
+#homepage #row5 a { color:#000; display:inline-block; padding-left:5px; padding-right:5px; line-height:20px; }
+#homepage #row5 a:hover { text-decoration:none; }
+#homepage #row5 span { display:inline-block; padding-left:5px; }
+#homepage #row5 a.footerlink { position:relative; top:5px; }
+
+#homepage #row2 #historyHeader { background-color:#c8b690; height:116px; border-left:5px solid #fff; }
+#homepage #row2 #historyHeader h1 { margin:0px; padding:20px; padding-bottom:8px; color:#fff; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:24px; }
+#homepage #row2 #historyHeader p { padding:0px; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff; padding:20px; padding-top:0px; }
+ 
+#homepage #row2 #historyContent { position:relative; margin:0px; padding:0px; border-left:5px solid #fff; border-top:5px solid #fff; border-right:5px solid #fff; background-color:#fafafa; overflow:hidden; width:715px; }
+#homepage #row2 #historyContent .controls { position:absolute; top:20px; left:470px; z-index:10; }
+#homepage #row2 #historyContent .controls a { text-decoration:none; font-family:'Neuzeit S LT W01 Book'; font-size:13px; text-transform:uppercase; padding-left:20px; padding-right:30px; color:#4f4940; }
+#homepage #row2 #historyContent .controls a:hover { text-decoration:underline; }
+#homepage #row2 #historyContent ul { list-style:none; margin:0px; padding:0px; z-index:1; margin-left:0px; position:relative; }
+#homepage #row2 #historyContent ul li { width:715px; float:left; }
+#homepage #row2 #historyContent ul li .largeImage { width:469px; float:left; }
+#homepage #row2 #historyContent ul li .largeImage img {  }
+#homepage #row2 #historyContent ul li .contentPanel { height:100%; width:210px; float:left; padding-left:20px; position:relative; top:0px; left:0px; }
+#homepage #row2 #historyContent ul li .contentPanel h1 { font-family:'Neuzeit S LT W01 Book'; font-size:18px; margin:0px; padding:0px; padding-bottom:10px; color:#4f4940; font-weight:normal; }
+#homepage #row2 #historyContent ul li .contentPanel p { margin:0px; padding:0px; color:#4f4940; font-size:12px; }
+#homepage #row2 #historyContent ul li .contentPanel .footerCaption { position:relative; top:60px; left:0px; font-size:11px; color:#888888; }
+#homepage #row2 #historyContent ul li .contentPanel .footerCaption p { margin:0px; padding:0px; font-size:11px; color:#888888; }
+
+#homepage #row2 #historyContent .thumbnails { margin:0 auto; height:40px; padding-top:20px; }
+#homepage #row2 #historyContent .thumbnails a { float:left; padding-left:10px; padding-right:10px; color:#4f4940; text-transform:uppercase; font-family:'Neuzeit S LT W01 Book'; font-size:13px; line-height:12px; display:block; height:12px; }
+#homepage #row2 #historyContent .thumbnails ul { float:left; margin:0px; padding:0px; }
+#homepage #row2 #historyContent .thumbnails ul li { width:12px; height:12px; line-height:12px; padding-left:5px; padding-right:5px; }
+#homepage #row2 #historyContent .thumbnails ul li a { display:block; width:12px; height:12px; overflow:hidden; float:none; background:url(../_images/historydot.png) no-repeat bottom center; padding:0px; }
+#homepage #row2 #historyContent .thumbnails ul li a:hover, #homepage #row2 #historyContent .thumbnails ul li a.active { float:none; background:url(../_images/historydot.png) no-repeat top center;  }
+#homepage #row2 #historyContent .thumbnails ul li a img { height:145px; }
+
+
+#homepage #row2 #historyContent h1 { font-size:18px; color:#4f4940; margin:0px; padding:0px; padding-left:20px; padding-top:20px; font-family:'Neuzeit S LT W01 Book'; font-weight:normal;  }
+#homepage #row2 #historyContent .left  { width:400px; float:left; padding-left:20px; padding-top:20px; }
+#homepage #row2 #historyContent .left h1 { padding:0px; margin:0px; padding-bottom:20px; }
+#homepage #row2 #historyContent .right { width:233px; float:right; padding:20px; background-color:#e2ad52; position:relative; top:0px; right:0px; }
+#homepage #row2 #historyContent .right h1 { font-size:18px; color:#fff; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; padding:0px; }
+#homepage #row2 #historyContent .right p { color:#fff; font-size:12px; }
+#homepage #row2 #historyContent .right a { display:block; color:#fff; font-weight:bold; font-size:12px; text-decoration:none; }
+#homepage #row2 #historyContent .right a:hover { text-decoration:underline; }
+
+#homepage #row2 #historyContent .left .items {  }
+#homepage #row2 #historyContent .left .items .row { padding-bottom:20px; }
+#homepage #row2 #historyContent .left .items .row .image { float:left; width:100px; height:150px; background-color:#ececec; overflow:hidden; }
+#homepage #row2 #historyContent .left .items .row .content { float:left; padding-left:20px; width:250px; }
+#homepage #row2 #historyContent .left .items .row .content h1 { font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:14px; color:#4f4940; margin:0px; padding:0px; padding-bottom:5px; }
+#homepage #row2 #historyContent .left .items .row .content p { font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:12px; color:#4f4940; margin:0px; padding-bottom:5px; }
+#homepage #row2 #historyContent .left .items .row .content a { font-family:'Neuzeit S LT W01 Book'; font-weight:bold; font-size:12px; color:#e2ad52; text-decoration:none; }
+#homepage #row2 #historyContent .left .items .row .content a:hover { text-decoration:underline; }
+
+#homepage #row2 #boxHolders #programHeader { background-color:#c8b690; min-height:116px; border-left:5px solid #fff; }
+#homepage #row2 #boxHolders #programHeader h1 { margin:0px; padding:20px; padding-bottom:8px; color:#fff; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; font-size:24px; }
+#homepage #row2 #boxHolders #programHeader p { padding:0px; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff; padding:20px; padding-top:0px; }
+
+#homepage #row2 #boxHolders #programHeader span .left { float:left; width:40%; margin:20px; padding:10px; color:#685F4D; background-color:#E5D7BB; height:70px; font-size:12px; }
+#homepage #row2 #boxHolders #programHeader span .right { float:right; width:40%; margin:20px; padding:10px; color:#685F4D; background-color:#E5D7BB; height:70px; font-size:12px; }
+#homepage #row2 #boxHolders #programHeader span p { color:#685F4D; padding-left:0px; padding-right:0px; padding-bottom:5px; }
+
+#homepage #row2 #boxHolders #programContent .items { padding:20px; padding-top:35px; }
+#homepage #row2 #boxHolders #programContent .items h1 { margin:0px; padding:0px; padding-bottom:20px; font-size:18px; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; font-weight:normal; }
+#homepage #row2 #boxHolders #programContent .items .item { border-top:1px solid #bdbbb7; float:left; width:215px; margin-left:5px; margin-right:5px; margin-bottom:30px; }
+#homepage #row2 #boxHolders #programContent .items .item h1 { margin:0px; padding:0px; font-size:13px; font-weight:normal; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; padding-top:5px; }
+#homepage #row2 #boxHolders #programContent .items .item p { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4f4940; padding-top:5px; padding-bottom:10px; margin:0px; }
+#homepage #row2 #boxHolders #programContent .items .item a { font-weight:bold; text-decoration:none; color:#B8A274; font-size:12px; }
+#homepage #row2 #boxHolders #programContent .items .item a:hover { text-decoration:underline; }
+#homepage #row2 #boxHolders #programContent .items .item img { padding-top:5px; }
+
+#homepage #row2 #boxHolders #programContent .items .item2 { border-top:1px solid #bdbbb7; float:left; width:320px; margin-left:3px; margin-right:3px; margin-bottom:30px; }
+#homepage #row2 #boxHolders #programContent .items .item2 h1 { margin:0px; padding:0px; font-size:14px; font-weight:normal; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; padding-top:5px; }
+#homepage #row2 #boxHolders #programContent .items .item2 p { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4f4940; padding-top:5px; padding-bottom:10px; margin:0px; }
+#homepage #row2 #boxHolders #programContent .items .item2 a { font-weight:bold; text-decoration:none; color:#B8A274; font-size:12px; }
+#homepage #row2 #boxHolders #programContent .items .item2 a:hover { text-decoration:underline; }
+#homepage #row2 #boxHolders #programContent .items .item2 img { padding-top:5px; }
+
+#homepage #row2 #boxHolders #listContent { border-left:5px solid #fff; }
+#homepage #row2 #boxHolders #listContent .longitem { margin:30px; border-top:1px solid #bdbbb7; }
+#homepage #row2 #boxHolders #listContent .longitem .left { float:left; }
+#homepage #row2 #boxHolders #listContent .longitem .left h1 { margin:0px; padding:0px; font-size:14px; font-weight:normal; color:#4f4940; font-family:'Neuzeit S LT W01 Book'; padding-top:20px; padding-bottom:20px; }
+#homepage #row2 #boxHolders #listContent .longitem .left p { margin:0px; padding:0px; font-size:11px; color:#4f4940; }
+#homepage #row2 #boxHolders #listContent .longitem .left a { font-size:12px; padding-top:10px; }
+#homepage #row2 #boxHolders #listContent .longitem .right { float:right; text-align:center; padding-top:20px; }
+#homepage #row2 #boxHolders #listContent .longitem .right a { font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#e2ad52; text-decoration:none; }
+#homepage #row2 #boxHolders #listContent .longitem .right a:hover { text-decoration:underline; }
+
+
+#homepage #row2 #boxHolders #timelineHeader { background-color:#e2ad52; height:106px; border-left:5px solid #fff; }
+#homepage #row2 #boxHolders #timelineHeader h1 { margin:0px; padding:20px; padding-bottom:8px; color:#fff; font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:16px; text-transform:uppercase; }
+#homepage #row2 #boxHolders #timelineHeader p { padding:0px; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff; padding:20px; padding-top:0px; }
+
+#homepage #row2 #boxHolders .timelineHeaderFooter { height:45px; border-left:5px solid #fff; z-index:2; }
+#homepage #row2 #boxHolders .timelineHeaderFooter ul { margin:0px; padding:0px; list-style:none; height:30px; overflow:visible; background-color:#cc8100; }
+#homepage #row2 #boxHolders .timelineHeaderFooter ul li { width:25%; float:left; text-align:center; line-height:30px; font-family:'Neuzeit S LT W01 Book'; font-size:16px; height:44px;  }
+#homepage #row2 #boxHolders .timelineHeaderFooter ul li a { color:#fff; text-decoration:none; }
+#homepage #row2 #boxHolders .timelineHeaderFooter ul li.active { }
+#homepage #row2 #boxHolders .timelineHeaderFooter ul li.active a, #homepage #row2 #boxHolders .timelineHeaderFooter ul li a:hover { color:#FAAA2B; }
+
+#homepage #row2 #boxHolders #timelineContent { width:715px; border-left:5px solid #fff; z-index:1; position:relative; top:-31px; margin-bottom:-31px; overflow:hidden; padding-bottom:20px; }
+#homepage #row2 #boxHolders #timelineContentFooter { height:30px; background-color:#cc8100; }
+
+#homepage #row2 #boxHolders #timelineContent .timelineblock { height:auto; width:720px; float:left; }
+#homepage #row2 #boxHolders #timelineContent .timelineblock .controls { background:url(../_images/controlbar.png) repeat-y; background-position:top center; height:100%; position:absolute; top:0px; margin:0 auto; width:36px; left:340px; padding-bottom:20px; }
+#homepage #row2 #boxHolders #timelineContent .timelineblock .controls .up { margin:0 auto; width:36px; height:22px; background:url(../_images/timeline_up.jpg) no-repeat; position:relative; top:20px; }
+#homepage #row2 #boxHolders #timelineContent .timelineblock .controls .up a { text-decoration:none; display:block; }
+#homepage #row2 #boxHolders #timelineContent .timelineblock .controls .down { margin:0 auto; width:36px; height:22px; background:url(../_images/timeline_down.jpg) no-repeat; position:relative; top:746px; }
+#homepage #row2 #boxHolders #timelineContent .timelineblock .controls .down a { text-decoration:none; display:block; }
+
+#homepage #row2 #boxHolders #timelineContent #timelineBlockHolder { width:2880px; overflow:hidden; }
+#homepage #row2 #boxHolders #timelineContent ul { height:100%; width:720px; list-style:none; margin:0px; padding:0px; padding-top:50px; }
+#homepage #row2 #boxHolders #timelineContent ul li { position:relative; height:190px; width:720px; }
+#homepage #row2 #boxHolders #timelineContent ul li a { color:#CC8100; padding-left:0px; }
+#homepage #row2 #boxHolders #timelineContent ul li .imageleft { float:left; width:50%; }
+#homepage #row2 #boxHolders #timelineContent ul li .imageleft img { width:355px; height:190px; }
+#homepage #row2 #boxHolders #timelineContent ul li .imageright { float:right; width:50%; }
+#homepage #row2 #boxHolders #timelineContent ul li .imageright img { width:355px; height:190px; background-color:#000; }
+
+#homepage #row2 #boxHolders #timelineContent ul li .captionleft { float:left; width:50%; border-top:1px solid #e6f1f4; border-bottom:1px solid #e6f1f4; position:relative; top:50%; padding-top:20px; padding-bottom:20px; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionleft h1 { margin:0px; padding:0px; padding-left:10px; padding-bottom:5px; font-size:15px; color:#cc8100; font-family:'NeuzeitSLTW01-BookHeavy'; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionleft p { padding:0px; margin:0px; padding-left:10px; font-size:14px; padding-right:20px; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionleft a { }
+#homepage #row2 #boxHolders #timelineContent ul li .captionleft a:hover { }
+#homepage #row2 #boxHolders #timelineContent ul li .captionleft small p { font-size:11px; }
+
+#homepage #row2 #boxHolders #timelineContent ul li .captionright { float:right; width:50%; border-top:1px solid #e6f1f4; border-bottom:1px solid #e6f1f4; padding-top:20px; padding-bottom:20px; position:relative; top:50%; right:0px; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionright h1 { margin:0px; padding:0px; padding-bottom:5px; font-size:15px; color:#cc8100; font-family:'NeuzeitSLTW01-BookHeavy'; padding-left:10px; line-height:normal; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionright p { padding:0px; margin:0px; padding-left:10px; font-size:14px; line-height:normal; padding-right:20px; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionright a { padding-left:10px;}
+#homepage #row2 #boxHolders #timelineContent ul li .captionright a:hover { }
+#homepage #row2 #boxHolders #timelineContent ul li .captionright small p { font-size:11px; }
+#homepage #row2 #boxHolders #timelineContent ul li .captionright p a { color:#CC8100; padding-left:0px; }
+
+#homepage #row2 #boxHolders .tourcontent .left #placeholderCaption { margin:0px; }
+
+#homepage #row2 #boxHolders #mainContent h2 { margin:0px; padding:0px; padding-bottom:5px; font-family:'NeuzeitSLTW01-BookHeavy'; font-weight:normal; font-size:14px; }
+
+
+#hideMap { position:relative; right:0px; display:inline-block; float:right; }
+
+.eventsfilter .dropdown .options small {
+    font-size: 12px;
+}
+
+#homepage #row4 .right p {
+    font-size: 11px;
+}
+#sb-loading-inner a {
+    background: none;
+    background-image: none;
+}
+
+.videoContainer { padding:20px; padding-top:20px; background-color:#c8b690; display:inline-block; clear:both; color:#fff; margin-bottom:20px; }
+.videoContainer .clear { height:0px; clear:both; }
+.videoContainer a { color:#fff !important; text-decoration:underline !important; }
+.videoContainer .left { float:left; width:300px; }
+.videoContainer .left a { display:block; }
+.videoContainer .right { float:right; padding-left:20px; width:300px; }
+.videoContainer .left a { display:block; }
+
+
+/*
+
+ SoundManager 2: In-page MP3 player example
+ ------------------------------------------
+
+ Clicks on links to MP3s are intercepted via JS, calls are
+ made to SoundManager to load/play sounds. CSS classes are
+ appended to the link, which are used to highlight the
+ current play state and so on.
+
+ Class names are applied in addition to "sm2_link" base.
+
+ Default:
+
+ sm2_link
+
+ Additional states:
+
+ sm2_playing
+ sm2_paused
+
+ eg.
+
+ <!-- default -->
+ <a href="some.mp3" class="sm2_link">some.mp3</a>
+
+ <!-- playing -->
+ <a href="some.mp3" class="sm2_link sm2_playing">some.mp3</a>
+
+
+ Note you don't require ul.graphic / ul.flat etc. for your use
+ if only using one style on a page. You can just use .sm2_link{}
+ and so on, but isolate the CSS you want.
+
+ Side note: Would do multiple class definitions eg.
+
+ a.sm2_default.sm2_playing{}
+
+ .. except IE 6 has a parsing bug which may break behaviour,
+ applying sm2_playing {} even when the class is set to sm2_default.
+
+
+ If you want to make your own UI from scratch, here is the base:
+
+ Default + hover state, "click to play":
+
+ a.sm2_link {}
+ a.sm2_link:hover {}
+
+ Playing + hover state, "click to pause":
+
+ a.sm2_playing {}
+ a.sm2_playing:hover {}
+
+ Paused + hover state, "click to resume":
+
+ a.sm2_paused {}
+ a.sm2_paused:hover {}
+
+
+*/
+
+/* two different list types */
+
+ul.flat {
+ list-style-type:none;
+ padding-left:0px;
+}
+
+ul.flat li,
+ul.graphic li {
+ padding-bottom:1px;
+ float:left;
+ width:170px;
+}
+
+ul.flat li a {
+ display:inline-block;
+ padding:2px 4px 2px 4px;
+}
+
+ul.graphic {
+ list-style-type:none;
+ padding-left:0px;
+ margin-left:0px;
+}
+
+/* background-image-based CSS3 example */
+
+ul.graphic {
+ list-style-type:none;
+ margin:0px;
+ padding:0px;
+}
+
+ul.graphic li {
+ margin-bottom:2px;
+}
+
+ul.graphic li a,
+ul.graphic li a.sm2_link {
+ /* assume all items will be sounds rather than wait for onload etc. in this example.. may differ for your uses. */
+ display:inline-block;
+ padding-left:22px;
+ width:120px;
+ min-height:16px;
+ vertical-align: middle;
+ background-color:#336699;
+ border-radius:3px;
+ padding:3px 3px 3px 25px;
+ _width:19em; /* IE 6 */
+ text-decoration:none;
+ font-weight:normal;
+ color:#f6f9ff;
+}
+
+ul.graphic li a.sm2_link {
+ /* safari 3.1+ fun (or, proprietary crap. TBD.) */
+ -webkit-transition-property: hover;
+ -webkit-transition: background-color 0.15s linear;
+ -moz-transition: background-color 0.15s linear 0s; /* firefox 4 */
+  -o-transition-property: background-color; /* opera 10.5 */
+  -o-transition-duration: 0.15s;
+}
+
+ul.graphic li a, /* use a.sm2_link {} if you want play icons showing only if SM2 is supported */
+ul.graphic li a.sm2_paused:hover,
+ul.graphic li a.sm2_link:hover {
+ background-image:url(../icon_play.png);
+ background-position:3px 50%;
+ background-repeat:no-repeat;
+ _background-image:url(../icon_play.gif); /* IE 6 */
+}
+
+ul.graphic li a.sm2_link:hover {
+ /* default hover color, if you'd like.. */
+ background-color:#003366;
+ color:#fff;
+}
+
+ul.graphic li a.sm2_paused {
+ background-color:#999;
+}
+
+ul.graphic li a.sm2_paused:hover {
+ background:#003366 url(../icon_play.png) no-repeat 3px 50%;
+ _background-image:url(../icon_play.gif);
+}
+
+ul.graphic li a.sm2_playing,
+ul.graphic li a.sm2_playing:hover {
+ background:#003366 url(../icon_pause.png) no-repeat 3px 50%;
+ _background-image:url(../icon_pause.gif);
+ text-decoration:none;
+}
+
+/* hide button while playing?
+ul.graphic li a.sm2_playing {
+ background-image:none;
+}
+*/
+
+#sm2-container {
+    height: 0px;
+    visibility:hidden;
+    overflow:hidden;
+}
+
+body #sm2-container object,
+body #sm2-container embed {
+ /*
+  flashblock handling: hide SWF off-screen by default (until blocked timeout case.)
+  include body prefix to ensure override of flashblock.css.
+ */
+
+ left:-9999em;
+ top:-9999em;
+}
+
+/* flat CSS example */
+
+ul.flat a.sm2_link {
+ /* default state: "a playable link" */
+ border-left:6px solid #999;
+ padding-left:4px;
+ padding-right:4px;
+}
+
+ul.flat a.sm2_link:hover {
+ /* default (inactive) hover state */
+ border-left-color:#333;
+}
+
+
+ul.flat a.sm2_playing {
+ /* "now playing" */
+ border-left-color:#6666ff;
+ background-color:#000;
+ color:#fff;
+ text-decoration:none;
+}
+
+ul.flat a.sm2_playing:hover {
+ /* "clicking will now pause" */
+ border-left-color:#cc3333;
+}
+
+ul.flat a.sm2_paused {
+ /* "paused state" */
+ background-color:#666;
+ color:#fff;
+ text-decoration:none;
+}
+
+ul.flat a.sm2_paused:hover {
+ /* "clicking will resume" */
+ border-left-color:#33cc33;
+}
