@@ -12,6 +12,62 @@
     <script type="text/javascript">
         Shadowbox.init();
     </script>
+    <style>
+      #api-frame {
+        margin-top: 20px;
+      }
+    </style>
+    <script type="text/javascript" src="js/sketchfab-viewer-1.0.0.js"></script>
+    <script type="text/javascript">
+        var iframe = $( '#api-frame' )[ 0 ];
+        var version = '1.0.0';
+        var urlid = '25b37c58d3d64ebc800651daa0b91060';
+
+        var client = new Sketchfab( version, iframe );
+
+        var error = function () {
+            console.error( 'Error api Sketchfab !' );
+        };
+
+        var success = function ( api ) {
+
+            var target = [ 0.0, 0.0, 1.0 ];
+
+            var cameraPosition = [ {
+                eye: [ 2, 0, 0 ]
+            }, {
+                eye: [ 1, 1, 0 ]
+            }, {
+                eye: [ 0, 2, 0 ]
+            }, {
+                eye: [ -1, 1, 0 ]
+            }, {
+                eye: [ -2, 0, 0 ]
+            }, {
+                eye: [ -1, -1, 0 ]
+            }, {
+                eye: [ 0, -2, 0 ]
+            }, {
+                eye: [ 1, -1, 0 ]
+            } ];
+
+            var currentCamera = 5;
+
+            var loop = function () {
+                curentCamera++;
+                api.lookat( cameraList[ curentCamera % 8 ].eye, target, 4 );
+                setTimeout( loop, 5000 );
+            }
+
+            api.start( loop );
+
+        };
+
+        client.init( urlid, {
+            success: success,
+            error: error
+        } );
+    </script>
 
 
 
@@ -67,7 +123,7 @@
                     
     <a href="/Islamic-Art-Collection/Collection-Highlights/Late-Ottoman-Syrian-interiors-and-furnishings/">< RETURN TO LATE-OTTOMAN SYRIAN INTERIORS AND FURNISHINGS</a><br /><br />
     <h1>Quwatli House</h1>
-    <iframe width="640" height="480" src="https://sketchfab.com/models/25b37c58d3d64ebc800651daa0b91060/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+    <iframe id="api-frame" width="640" height="480" src="https://sketchfab.com/models/25b37c58d3d64ebc800651daa0b91060/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
 <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
     <a href="https://sketchfab.com/models/25b37c58d3d64ebc800651daa0b91060?utm_source=oembed&utm_medium=embed&utm_campaign=25b37c58d3d64ebc800651daa0b91060" target="_blank" style="font-weight: bold; color: #1CAAD9;">Transparency and annotations test</a>
@@ -216,40 +272,40 @@
         } catch (e) { return ""; }
         return "";
     }
-    $(document).ready(function () {
-        initSlider();
+    // $(document).ready(function () {
+    //     initSlider();
 
-        // check if we have the feed already
-        var js = "";
-        try {
-            js = JSON.parse(localStorage.getItem("collectionjson"));
-        } catch (e) { js = ""; }
+    //     // check if we have the feed already
+    //     var js = "";
+    //     try {
+    //         js = JSON.parse(localStorage.getItem("collectionjson"));
+    //     } catch (e) { js = ""; }
 
-        var dtval = localStorage.getItem("lastCollectedTimestamp");
-        if (dtval == null)
-            dtval = "1-1-1990";
-        if (dtval.length > 0) {
-            var dt = new Date(dtval);
-            var now = new Date();
-            var diff = now - dt;
-            //86400000 ms per day
-            if (parseInt(diff) < 86400000 && js != null) {
-                // less than a day since last pull, check if it's stored locally.
-                collectionCallback(js);
-            } else {
-                $.ajax({
-                    type: 'GET',
-                    url: '/collectionProxy.aspx',
-                    error: function (a, b, c) { },
-                    success: function (d) {
-                        var dt = new Date();
-                        localStorage.setItem("lastCollectedTimestamp", dt.toLocaleString());
-                        collectionCallback(d);
-                    }
-                });
-            }
-        }
-    });
+    //     var dtval = localStorage.getItem("lastCollectedTimestamp");
+    //     if (dtval == null)
+    //         dtval = "1-1-1990";
+    //     if (dtval.length > 0) {
+    //         var dt = new Date(dtval);
+    //         var now = new Date();
+    //         var diff = now - dt;
+    //         //86400000 ms per day
+    //         if (parseInt(diff) < 86400000 && js != null) {
+    //             // less than a day since last pull, check if it's stored locally.
+    //             collectionCallback(js);
+    //         } else {
+    //             $.ajax({
+    //                 type: 'GET',
+    //                 url: '/collectionProxy.aspx',
+    //                 error: function (a, b, c) { },
+    //                 success: function (d) {
+    //                     var dt = new Date();
+    //                     localStorage.setItem("lastCollectedTimestamp", dt.toLocaleString());
+    //                     collectionCallback(d);
+    //                 }
+    //             });
+    //         }
+    //     }
+    // });
 
     // object definition -- used to load the sliders
     function Slide() {
