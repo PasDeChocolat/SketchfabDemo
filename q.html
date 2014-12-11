@@ -19,17 +19,43 @@
     </style>
     <script type="text/javascript" src="js/sketchfab-viewer-1.0.0.js"></script>
     <script type="text/javascript">
-        var iframe = $( '#api-frame' )[ 0 ];
-        var version = '1.0.0';
-        var urlid = '25b37c58d3d64ebc800651daa0b91060';
+        var iFrameId = "api-frame";
+        var loaded = false;
 
-        var client = new Sketchfab( version, iframe );
+        var setupSketch = function() {
+            var iframe = $( '#'+iFrameId )[ 0 ];
+            var version = '1.0.0';
+            var urlid = '25b37c58d3d64ebc800651daa0b91060';
 
-        var error = function () {
-            console.error( 'Error api Sketchfab !' );
-        };
+            var client = new Sketchfab( version, iframe );
 
-        var success = function ( api ) {
+            var error = function () {
+                console.error( 'Error api Sketchfab !' );
+            };
+
+            var success = function ( api ) {
+
+                loopCamera(api);
+
+            };
+
+            client.init( urlid, {
+                success: success,
+                error: error
+            } );
+        }
+
+        $(function(){
+            $('#'+iFrameId).load(function(){
+                console.log('trigger');
+                if (loaded) return;
+                loaded = true;
+                console.log('iframe loaded');
+                setupSketch();
+            });
+        });
+
+        var loopCamera = function ( api ) {
 
             var target = [ 0.0, 0.0, 1.0 ];
 
@@ -54,8 +80,8 @@
             var currentCamera = 5;
 
             var loop = function () {
-                curentCamera++;
-                api.lookat( cameraList[ curentCamera % 8 ].eye, target, 4 );
+                currentCamera++;
+                api.lookat( cameraPosition[ currentCamera % 8 ].eye, target, 4 );
                 setTimeout( loop, 5000 );
             }
 
@@ -63,10 +89,6 @@
 
         };
 
-        client.init( urlid, {
-            success: success,
-            error: error
-        } );
     </script>
 
 
